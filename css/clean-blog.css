@@ -29,12 +29,13 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #212529;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
-}
-
+a:link {
+  color: #0000EE;
+  }
+  a:visited {
+  color: #551A8B;
+  }
+ 
 a:focus, a:hover {
   color: #0085A1;
 }
